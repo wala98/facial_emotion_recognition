@@ -1,14 +1,69 @@
 # Facial Emotion Recognition System
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-orange)
 
-This project is a **Facial Emotion Recognition System** using deep learning and transfer learning techniques with PyTorch. It supports multiple pretrained CNN backbones such as ResNet18 and EfficientNet-B0, fine-tuned on a custom emotion classification dataset.
+This deep learning project focuses on **Facial Emotion Recognition (FER)** using both transfer learning and custom neural networks. The system processes live webcam input and predicts facial emotions in real-time, displaying relevant emojis to enhance human-computer interaction.
 
-## 🚀 Features
+---
 
-- Real-time emotion recognition from webcam input
-- Transfer learning using pre-trained models (ResNet18, EfficientNet-B0, etc.)
-- Modular, extensible, and efficient training pipeline
-- Custom classification head with dropout, batch normalization, and activation functions
-- Emoji-based feedback visualization
-- GPU-accelerated training (if available)
+## 🌟 Motivation
 
+Facial emotions are crucial in human communication. This project aims to build an intelligent system that can recognize emotions like happiness, anger, or sadness from facial expressions — enabling applications in:
 
+- 📚 **Live class monitoring**
+- 🧠 **Mental health assistance**
+- 🧾 **Customer sentiment analysis**
+- 🕹 **Human-computer interaction in games**
+- 🛡 **Surveillance and security**
+
+---
+
+## 🧠 Emotions Detected
+
+- 😠 Angry  
+- 🤢 Disgust  
+- 😨 Fear  
+- 😀 Happy  
+- 😢 Sad  
+- 😲 Surprise  
+- 😐 Neutral  
+
+---
+
+## 🗃 Dataset
+
+**FER2013** dataset from [Kaggle](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge)
+
+- 35,887 grayscale 48x48 facial images
+- 7 labeled emotion categories
+- Preprocessed (aligned and centered faces)
+
+---
+
+## 🧠 Model Architectures
+
+This project explores **five models**:
+
+### ✅ 1. Custom CNN
+- Designed for grayscale 48x48 images
+- Simple and lightweight
+- Achieved 74% training accuracy / 64% test accuracy
+
+### 🔄 2. EfficientNet-B0 *(Transfer Learning)*
+- Pretrained on ImageNet
+- Fine-tuned on FER2013 (RGB)
+- Excellent generalization and high accuracy
+
+### 🔄 3. ResNet18 *(Transfer Learning)*
+- Moderate depth
+- Performed well but slightly underfit due to grayscale-to-RGB conversion
+
+### 🔄 4. GoogLeNet/Inception *(Transfer Learning)*
+- Multi-scale feature extraction
+- Balanced performance across emotion categories
+
+### 🔄 5. MobileNetV2 *(Transfer Learning)*
+- Optimized for speed and lightweight inference
+- Ideal for real-time emotion detection with webcam
+
+---
