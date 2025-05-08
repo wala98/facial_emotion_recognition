@@ -2,7 +2,7 @@
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-orange)
 
-This deep learning project focuses on **Facial Emotion Recognition (FER)** using both transfer learning and custom neural networks. The system processes live webcam input and predicts facial emotions in real-time, displaying relevant emojis to enhance human-computer interaction.
+This deep learning project focuses on **Facial Emotion Recognition (FER)** using both transfer learning and custom neural networks. The system processes live webcam input and predicts facial emotions in real-time .
 
 ---
 
