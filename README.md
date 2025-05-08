@@ -11,5 +11,4 @@ This project is a **Facial Emotion Recognition System** using deep learning and 
 - Emoji-based feedback visualization
 - GPU-accelerated training (if available)
 
-## 📁 Project Structure
 
