@@ -44,26 +44,10 @@ Facial emotions are crucial in human communication. This project aims to build a
 
 This project explores **five models**:
 
-### ✅ 1. Custom CNN
-- Designed for grayscale 48x48 images
-- Simple and lightweight
-- Achieved 74% training accuracy / 64% test accuracy
-
-### 🔄 2. EfficientNet-B0 *(Transfer Learning)*
-- Pretrained on ImageNet
-- Fine-tuned on FER2013 (RGB)
-- Excellent generalization and high accuracy
-
-### 🔄 3. ResNet18 *(Transfer Learning)*
-- Moderate depth
-- Performed well but slightly underfit due to grayscale-to-RGB conversion
-
-### 🔄 4. GoogLeNet/Inception *(Transfer Learning)*
-- Multi-scale feature extraction
-- Balanced performance across emotion categories
-
-### 🔄 5. MobileNetV2 *(Transfer Learning)*
-- Optimized for speed and lightweight inference
-- Ideal for real-time emotion detection with webcam
+### 1. Custom CNN
+### 2. EfficientNet-B0 *(Transfer Learning)*
+### 3. ResNet18 *(Transfer Learning)*
+### 4. GoogLeNet/Inception *(Transfer Learning)*
+### 5. MobileNetV2 *(Transfer Learning)*
 
 ---
