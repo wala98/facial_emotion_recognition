@@ -65,6 +65,7 @@ This project explores **five models**:
    ```bash
    python face_emotion_recognition.py
 
+---
 ## 📸 
 ![Image](https://github.com/wala98/facial_emotion_recognition/blob/b5abaeb3a8d217534a61ff1f933cc7d63c2b96ae/output%20exemple/Screenshot%202025-05-09%20135243.png)
 ![Image](https://github.com/wala98/facial_emotion_recognition/blob/b5abaeb3a8d217534a61ff1f933cc7d63c2b96ae/output%20exemple/Screenshot%202025-05-09%20135259.png)
